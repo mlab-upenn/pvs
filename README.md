@@ -5,12 +5,14 @@ Here is the source code for the Pacemaker Verification System project. The
 following is a breakdown of the source folders:
 
 * GUI/
+
 	This folder contains the MATLAB code for the GUI monitor program. It has been
 	tested on MATLAB versions 2009a, 2011a, and 2011b. It should theoretically
 	work on standard MATLAB installations without additional packages. Execute
 	`PVS_GUI.m` to run the GUI.
 
 * LookupModels/
+
 	This folder contains the MATLAB Simulink and Stateflow models for the virtual
 	heart. Simulink HDL Coder is required to convert these models to HDL for use
 	on an FPGA. These models are known to work with MATLAB 2011a.  The
@@ -26,6 +28,7 @@ following is a breakdown of the source folders:
 	models.
 
 * SimpleModels/
+
 	This folder contains the MATLAB Simulink and Stateflow models for the virtual
 	heart. Simulink HDL Coder is required to convert these models to HDL for use
 	on an FPGA. These models are known to work with MATLAB 2011a.  The
@@ -41,6 +44,7 @@ following is a breakdown of the source folders:
 	above lookup models.
 
 * hdl_harness/
+
 	This folder contains the Verilog harness for running the virtual heart model
 	on an FPGA. It handles all I/O for the virtual heart, such as sending beats
 	and receiving paces to and from the pacemaker, and sending and receiving
@@ -58,6 +62,7 @@ following is a breakdown of the source folders:
 	should now be ready for synthesis and flashing the board.
 
 * scripts/
+
 	This folder contains the build data and the build script for constructing
 	virtual heart models. Each `.mat` file represents a different heart, where the
 	timing properties for each tissue node and the paths between them are
@@ -66,5 +71,5 @@ following is a breakdown of the source folders:
 	including the  implementation of generic nodes and paths. For example,
 	`case2mod_new.mdl` in `SimpleModeling` was constructed using
 	`case2mod_new.mat` as the topology and `SimpleModeling.mdl` as the library.
-	The build scripts have been tested in MATLAB 2011a and 20llb and should only
+	The build scripts have been tested in MATLAB 2011a and 2011b and should only
 	require the Simulink and Stateflow packages.
