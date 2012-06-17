@@ -1,0 +1,3841 @@
+Model {
+  Name			  "case2mod_new_scope"
+  Version		  7.7
+  MdlSubVersion		  0
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    7
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "NA1Out"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "NA2Out"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "NA3Out"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "NA4Out"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "NA5Out"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "NA6Out"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "NA7Out"
+    }
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.6"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  SavedCharacterEncoding  "windows-1252"
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      6
+      Cell		      "HDLSubsystem"
+      Cell		      "case2mod_new_scope"
+      Cell		      "TargetDirectory"
+      Cell		      "../SimpleModels/hdlsrc_415_1427/"
+      Cell		      "TargetLanguage"
+      Cell		      "Verilog"
+      PropName		      "mdlProps"
+    }
+  }
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  MaxMDLFileLineLength	  120
+  Created		  "Sun Apr 15 14:27:05 2012"
+  Creator		  "iris"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "iris"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Sun Apr 15 14:34:22 2012"
+  RTWModifiedTimeStamp	  256400826
+  ModelVersionFormat	  "1.%<AutoIncrement:6>"
+  ConfigurationManager	  "None"
+  SampleTimeColors	  on
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  on
+  ShowPortDataTypes	  on
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    2
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "case2mod_new_scope"
+    signals_		    []
+    overrideMode_	    [0U]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "case2mod_new_scope"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      3
+      Version		      "1.11.0"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  4
+	  Version		  "1.11.0"
+	  StartTime		  "0.0"
+	  StopTime		  "100000"
+	  AbsTol		  "auto"
+	  FixedStep		  "1"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "SingleTasking"
+	  ConcurrentTasks	  off
+	  Solver		  "FixedStepDiscrete"
+	  SolverName		  "FixedStepDiscrete"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  5
+	  Version		  "1.11.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "ModelDataLogs"
+	  SaveOutput		  off
+	  SaveState		  off
+	  SignalLogging		  off
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  SaveTime		  off
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  6
+	  Version		  "1.11.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  off
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs off
+	  InlineParams		  on
+	  UseIntDivNetSlope	  off
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  2147483647
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	  AccelParallelForEachSubsystem	on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  7
+	  Version		  "1.11.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "error"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "error"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "Use local settings"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  8
+	  Version		  "1.11.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdHWDeviceType	  "ASIC/FPGA->ASIC/FPGA"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  9
+	  Version		  "1.11.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  10
+	  Version		  "1.11.0"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  11
+	  Version		  "1.11.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "GenerateSLWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  TemplateMakefile	  "grt_default_tmf"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateSLWebview	  off
+	  GenerateCodeMetricsReport off
+	  RTWCompilerOptimization "Off"
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      12
+	      Version		      "1.11.0"
+	      Array {
+		Type			"Cell"
+		Dimension		21
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      13
+	      Version		      "1.11.0"
+	      Array {
+		Type			"Cell"
+		Dimension		16
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"MultiInstanceERTCode"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      TargetFunctionLibrary   "ANSI_C"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      FunctionExecutionProfile off
+	      CodeExecutionProfiling  off
+	      ERTCodeCoverageTool     "None"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      IsPILTarget	      off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      PortableWordSizes	      off
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    off
+	      AutosarCompliant	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  14
+	  Version		  "1.11.0"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    ""
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 400, 210, 1280, 840 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    3
+  }
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Clock
+      DisplayTime	      off
+    }
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      From
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      IconDisplay	      "Tag"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Logic
+      Operator		      "AND"
+      Inputs		      "2"
+      IconShape		      "rectangular"
+      AllPortsSameDT	      on
+      OutDataTypeStr	      "Inherit: Logical (see Configuration Parameters: Optimization)"
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      S-Function
+      FunctionName	      "system"
+      SFunctionModules	      "''"
+      PortCounts	      "[]"
+      SFunctionDeploymentMode off
+    }
+    Block {
+      BlockType		      Scope
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+    }
+    Block {
+      BlockType		      Terminator
+    }
+  }
+  System {
+    Name		    "case2mod_new_scope"
+    Location		    [2, 78, 1678, 970]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "197"
+    Block {
+      BlockType		      Goto
+      Name		      "AV_forw_inTag"
+      SID		      "164"
+      Position		      [1260, 462, 1340, 478]
+      ShowName		      off
+      GotoTag		      "AV_forw"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "HeartScope"
+      SID		      "173"
+      Ports		      [9]
+      Position		      [1550, 50, 1600, 170]
+      Floating		      off
+      Location		      [5, 52, 1685, 989]
+      Open		      on
+      NumInputPorts	      "9"
+      List {
+	ListType		AxesTitles
+	axes1			"NA_1"
+	axes2			"NA_2"
+	axes3			"NA_3"
+	axes4			"NA_4"
+	axes5			"NA_5"
+	axes6			"NA_6"
+	axes7			"NA_7"
+	axes8			"%<SignalLabel>"
+	axes9			"%<SignalLabel>"
+      }
+      YMin		      "-5~-5~-5~-5~-5~-5~-5~-5~-5"
+      YMax		      "5~5~5~5~5~5~5~5~5"
+      SaveToWorkspace	      on
+      SaveName		      "scopedata"
+      DataFormat	      "StructureWithTime"
+      LimitDataPoints	      off
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA1"
+      SID		      "6"
+      Position		      [1000, 87, 1070, 103]
+      ShowName		      off
+      GotoTag		      "NA1_in"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NA1_OR"
+      SID		      "7"
+      Ports		      [5, 1]
+      Position		      [900, 52, 950, 178]
+      Operator		      "OR"
+      Inputs		      "5"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "NA1_SA"
+      SID		      "1"
+      Ports		      [2, 3]
+      Position		      [110, 50, 225, 100]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/NA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      TERP_s_m		      "200"
+      TERP_defs_m	      "200"
+      TRRP_s_m		      "100"
+      TRRP_def_m	      "100"
+      Trest_s_m		      "300"
+      Terp_min_m	      "200"
+      Terp_max_m	      "200"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA1_in"
+      SID		      "4"
+      Position		      [20, 57, 90, 73]
+      ShowName		      off
+      GotoTag		      "NA1_in"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA1_out"
+      SID		      "2"
+      Position		      [250, 52, 325, 68]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA1_pt"
+      SID		      "3"
+      Position		      [250, 82, 325, 98]
+      ShowName		      off
+      GotoTag		      "NA1_pt"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA1_tRest"
+      SID		      "5"
+      Position		      [20, 82, 90, 98]
+      ShowName		      off
+      GotoTag		      "SA_rest"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA2"
+      SID		      "18"
+      Position		      [1000, 247, 1070, 263]
+      ShowName		      off
+      GotoTag		      "NA2_in"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "NA2_AV"
+      SID		      "13"
+      Ports		      [2, 3]
+      Position		      [110, 130, 225, 180]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/NA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      TERP_s_m		      "200"
+      TERP_defs_m	      "200"
+      TRRP_s_m		      "100"
+      TRRP_def_m	      "100"
+      Trest_s_m		      "9999"
+      Terp_min_m	      "200"
+      Terp_max_m	      "200"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NA2_OR"
+      SID		      "19"
+      Ports		      [2, 1]
+      Position		      [900, 227, 950, 278]
+      Operator		      "OR"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA2_in"
+      SID		      "16"
+      Position		      [20, 137, 90, 153]
+      ShowName		      off
+      GotoTag		      "NA2_in"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA2_out"
+      SID		      "14"
+      Position		      [250, 132, 325, 148]
+      ShowName		      off
+      GotoTag		      "NA2_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA2_pt"
+      SID		      "15"
+      Position		      [250, 162, 325, 178]
+      ShowName		      off
+      GotoTag		      "NA2_pt"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "NA2_tRest"
+      SID		      "17"
+      Position		      [20, 162, 90, 178]
+      ShowName		      off
+      Value		      "9999"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA3"
+      SID		      "27"
+      Position		      [1000, 332, 1070, 348]
+      ShowName		      off
+      GotoTag		      "NA3_in"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NA3_OR"
+      SID		      "28"
+      Ports		      [3, 1]
+      Position		      [900, 327, 950, 403]
+      Operator		      "OR"
+      Inputs		      "3"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "NA3_RV"
+      SID		      "22"
+      Ports		      [2, 3]
+      Position		      [110, 210, 225, 260]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/NA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      TERP_s_m		      "250"
+      TERP_defs_m	      "250"
+      TRRP_s_m		      "100"
+      TRRP_def_m	      "100"
+      Trest_s_m		      "9999"
+      Terp_min_m	      "250"
+      Terp_max_m	      "250"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA3_in"
+      SID		      "25"
+      Position		      [20, 217, 90, 233]
+      ShowName		      off
+      GotoTag		      "NA3_in"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA3_out"
+      SID		      "23"
+      Position		      [250, 212, 325, 228]
+      ShowName		      off
+      GotoTag		      "NA3_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA3_pt"
+      SID		      "24"
+      Position		      [250, 242, 325, 258]
+      ShowName		      off
+      GotoTag		      "NA3_pt"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "NA3_tRest"
+      SID		      "26"
+      Position		      [20, 242, 90, 258]
+      ShowName		      off
+      Value		      "9999"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA4"
+      SID		      "37"
+      Position		      [1000, 472, 1070, 488]
+      ShowName		      off
+      GotoTag		      "NA4_in"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "NA4_F1"
+      SID		      "32"
+      Ports		      [2, 3]
+      Position		      [110, 290, 225, 340]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/NA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      TERP_s_m		      "250"
+      TERP_defs_m	      "250"
+      TRRP_s_m		      "100"
+      TRRP_def_m	      "100"
+      Trest_s_m		      "9999"
+      Terp_min_m	      "250"
+      Terp_max_m	      "250"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NA4_OR"
+      SID		      "38"
+      Ports		      [2, 1]
+      Position		      [900, 452, 950, 503]
+      Operator		      "OR"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA4_in"
+      SID		      "35"
+      Position		      [20, 297, 90, 313]
+      ShowName		      off
+      GotoTag		      "NA4_in"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA4_out"
+      SID		      "33"
+      Position		      [250, 292, 325, 308]
+      ShowName		      off
+      GotoTag		      "NA4_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA4_pt"
+      SID		      "34"
+      Position		      [250, 322, 325, 338]
+      ShowName		      off
+      GotoTag		      "NA4_pt"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "NA4_tRest"
+      SID		      "36"
+      Position		      [20, 322, 90, 338]
+      ShowName		      off
+      Value		      "9999"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA5"
+      SID		      "46"
+      Position		      [1000, 572, 1070, 588]
+      ShowName		      off
+      GotoTag		      "NA5_in"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "NA5_F2"
+      SID		      "41"
+      Ports		      [2, 3]
+      Position		      [110, 370, 225, 420]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/NA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      TERP_s_m		      "250"
+      TERP_defs_m	      "250"
+      TRRP_s_m		      "100"
+      TRRP_def_m	      "100"
+      Trest_s_m		      "9999"
+      Terp_min_m	      "250"
+      Terp_max_m	      "250"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NA5_OR"
+      SID		      "47"
+      Ports		      [2, 1]
+      Position		      [900, 552, 950, 603]
+      Operator		      "OR"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA5_in"
+      SID		      "44"
+      Position		      [20, 377, 90, 393]
+      ShowName		      off
+      GotoTag		      "NA5_in"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA5_out"
+      SID		      "42"
+      Position		      [250, 372, 325, 388]
+      ShowName		      off
+      GotoTag		      "NA5_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA5_pt"
+      SID		      "43"
+      Position		      [250, 402, 325, 418]
+      ShowName		      off
+      GotoTag		      "NA5_pt"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "NA5_tRest"
+      SID		      "45"
+      Position		      [20, 402, 90, 418]
+      ShowName		      off
+      Value		      "9999"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA6"
+      SID		      "55"
+      Position		      [1000, 672, 1070, 688]
+      ShowName		      off
+      GotoTag		      "NA6_in"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NA6_OR"
+      SID		      "56"
+      Ports		      [2, 1]
+      Position		      [900, 652, 950, 703]
+      Operator		      "OR"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "NA6_S1"
+      SID		      "50"
+      Ports		      [2, 3]
+      Position		      [110, 450, 225, 500]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/NA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      TERP_s_m		      "150"
+      TERP_defs_m	      "150"
+      TRRP_s_m		      "100"
+      TRRP_def_m	      "100"
+      Trest_s_m		      "9999"
+      Terp_min_m	      "150"
+      Terp_max_m	      "150"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA6_in"
+      SID		      "53"
+      Position		      [20, 457, 90, 473]
+      ShowName		      off
+      GotoTag		      "NA6_in"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA6_out"
+      SID		      "51"
+      Position		      [250, 452, 325, 468]
+      ShowName		      off
+      GotoTag		      "NA6_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA6_pt"
+      SID		      "52"
+      Position		      [250, 482, 325, 498]
+      ShowName		      off
+      GotoTag		      "NA6_pt"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "NA6_tRest"
+      SID		      "54"
+      Position		      [20, 482, 90, 498]
+      ShowName		      off
+      Value		      "9999"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA7"
+      SID		      "64"
+      Position		      [1000, 772, 1070, 788]
+      ShowName		      off
+      GotoTag		      "NA7_in"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NA7_OR"
+      SID		      "65"
+      Ports		      [2, 1]
+      Position		      [900, 752, 950, 803]
+      Operator		      "OR"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "NA7_S2"
+      SID		      "59"
+      Ports		      [2, 3]
+      Position		      [110, 530, 225, 580]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/NA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      TERP_s_m		      "150"
+      TERP_defs_m	      "150"
+      TRRP_s_m		      "100"
+      TRRP_def_m	      "100"
+      Trest_s_m		      "9999"
+      Terp_min_m	      "150"
+      Terp_max_m	      "150"
+    }
+    Block {
+      BlockType		      From
+      Name		      "NA7_in"
+      SID		      "62"
+      Position		      [20, 537, 90, 553]
+      ShowName		      off
+      GotoTag		      "NA7_in"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA7_out"
+      SID		      "60"
+      Position		      [250, 532, 325, 548]
+      ShowName		      off
+      GotoTag		      "NA7_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "NA7_pt"
+      SID		      "61"
+      Position		      [250, 562, 325, 578]
+      ShowName		      off
+      GotoTag		      "NA7_pt"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "NA7_tRest"
+      SID		      "63"
+      Position		      [20, 562, 90, 578]
+      ShowName		      off
+      Value		      "9999"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output1"
+      SID		      "124"
+      Position		      [1150, 52, 1230, 68]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output2"
+      SID		      "126"
+      Position		      [1150, 102, 1230, 118]
+      ShowName		      off
+      GotoTag		      "NA2_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output3"
+      SID		      "128"
+      Position		      [1150, 152, 1230, 168]
+      ShowName		      off
+      GotoTag		      "NA3_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output4"
+      SID		      "130"
+      Position		      [1150, 202, 1230, 218]
+      ShowName		      off
+      GotoTag		      "NA4_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output5"
+      SID		      "132"
+      Position		      [1150, 252, 1230, 268]
+      ShowName		      off
+      GotoTag		      "NA5_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output6"
+      SID		      "134"
+      Position		      [1150, 302, 1230, 318]
+      ShowName		      off
+      GotoTag		      "NA6_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output7"
+      SID		      "136"
+      Position		      [1150, 352, 1230, 368]
+      ShowName		      off
+      GotoTag		      "NA7_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output8"
+      SID		      "174"
+      Position		      [1160, 537, 1240, 553]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "Output9"
+      SID		      "175"
+      Position		      [1160, 572, 1240, 588]
+      ShowName		      off
+      GotoTag		      "NA3_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA1_1"
+      SID		      "8"
+      Position		      [790, 57, 890, 73]
+      ShowName		      off
+      GotoTag		      "PA1_out_1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PA1_1to2"
+      SID		      "68"
+      Ports		      [5, 3]
+      Position		      [500, 50, 605, 120]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      min_path_par_m	      "10"
+      bck_param_m	      "132"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA1_2"
+      SID		      "21"
+      Position		      [790, 257, 890, 273]
+      ShowName		      off
+      GotoTag		      "PA1_out_2"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PA1_forw"
+      SID		      "75"
+      Position		      [395, 107, 465, 123]
+      ShowName		      off
+      Value		      "22"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA1_in_1"
+      SID		      "71"
+      Position		      [395, 47, 465, 63]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA1_in_2"
+      SID		      "72"
+      Position		      [395, 62, 465, 78]
+      ShowName		      off
+      GotoTag		      "NA2_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA1_in_3"
+      SID		      "73"
+      Position		      [395, 77, 465, 93]
+      ShowName		      off
+      GotoTag		      "NA1_pt"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA1_in_4"
+      SID		      "74"
+      Position		      [395, 92, 465, 108]
+      ShowName		      off
+      GotoTag		      "NA2_pt"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA1_out_1"
+      SID		      "69"
+      Position		      [640, 52, 725, 68]
+      ShowName		      off
+      GotoTag		      "PA1_out_1"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA1_out_2"
+      SID		      "70"
+      Position		      [640, 77, 725, 93]
+      ShowName		      off
+      GotoTag		      "PA1_out_2"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA2_1"
+      SID		      "20"
+      Position		      [790, 232, 890, 248]
+      ShowName		      off
+      GotoTag		      "PA2_out_1"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA2_2"
+      SID		      "29"
+      Position		      [790, 332, 890, 348]
+      ShowName		      off
+      GotoTag		      "PA2_out_2"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PA2_2to3"
+      SID		      "76"
+      Ports		      [5, 3]
+      Position		      [500, 150, 605, 220]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      min_path_par_m	      "90"
+      bck_param_m	      "144"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA2_forw"
+      SID		      "83"
+      Position		      [395, 207, 465, 223]
+      ShowName		      off
+      GotoTag		      "AV_forw"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA2_in_1"
+      SID		      "79"
+      Position		      [395, 147, 465, 163]
+      ShowName		      off
+      GotoTag		      "NA2_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA2_in_2"
+      SID		      "80"
+      Position		      [395, 162, 465, 178]
+      ShowName		      off
+      GotoTag		      "NA3_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA2_in_3"
+      SID		      "81"
+      Position		      [395, 177, 465, 193]
+      ShowName		      off
+      GotoTag		      "NA2_pt"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA2_in_4"
+      SID		      "82"
+      Position		      [395, 192, 465, 208]
+      ShowName		      off
+      GotoTag		      "NA3_pt"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA2_out_1"
+      SID		      "77"
+      Position		      [640, 152, 725, 168]
+      ShowName		      off
+      GotoTag		      "PA2_out_1"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA2_out_2"
+      SID		      "78"
+      Position		      [640, 177, 725, 193]
+      ShowName		      off
+      GotoTag		      "PA2_out_2"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA3_1"
+      SID		      "9"
+      Position		      [790, 82, 890, 98]
+      ShowName		      off
+      GotoTag		      "PA3_out_1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PA3_1to4"
+      SID		      "84"
+      Ports		      [5, 3]
+      Position		      [500, 250, 605, 320]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      min_path_par_m	      "10"
+      bck_param_m	      "32767"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA3_2"
+      SID		      "40"
+      Position		      [790, 482, 890, 498]
+      ShowName		      off
+      GotoTag		      "PA3_out_2"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PA3_forw"
+      SID		      "91"
+      Position		      [395, 307, 465, 323]
+      ShowName		      off
+      Value		      "47"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA3_in_1"
+      SID		      "87"
+      Position		      [395, 247, 465, 263]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA3_in_2"
+      SID		      "88"
+      Position		      [395, 262, 465, 278]
+      ShowName		      off
+      GotoTag		      "NA4_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA3_in_3"
+      SID		      "89"
+      Position		      [395, 277, 465, 293]
+      ShowName		      off
+      GotoTag		      "NA1_pt"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA3_in_4"
+      SID		      "90"
+      Position		      [395, 292, 465, 308]
+      ShowName		      off
+      GotoTag		      "NA4_pt"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA3_out_1"
+      SID		      "85"
+      Position		      [640, 252, 725, 268]
+      ShowName		      off
+      GotoTag		      "PA3_out_1"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA3_out_2"
+      SID		      "86"
+      Position		      [640, 277, 725, 293]
+      ShowName		      off
+      GotoTag		      "PA3_out_2"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA4_1"
+      SID		      "10"
+      Position		      [790, 107, 890, 123]
+      ShowName		      off
+      GotoTag		      "PA4_out_1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PA4_1to6"
+      SID		      "92"
+      Ports		      [5, 3]
+      Position		      [500, 350, 605, 420]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      min_path_par_m	      "80"
+      bck_param_m	      "16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA4_2"
+      SID		      "58"
+      Position		      [790, 682, 890, 698]
+      ShowName		      off
+      GotoTag		      "PA4_out_2"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PA4_forw"
+      SID		      "99"
+      Position		      [395, 407, 465, 423]
+      ShowName		      off
+      Value		      "16"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA4_in_1"
+      SID		      "95"
+      Position		      [395, 347, 465, 363]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA4_in_2"
+      SID		      "96"
+      Position		      [395, 362, 465, 378]
+      ShowName		      off
+      GotoTag		      "NA6_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA4_in_3"
+      SID		      "97"
+      Position		      [395, 377, 465, 393]
+      ShowName		      off
+      GotoTag		      "NA1_pt"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA4_in_4"
+      SID		      "98"
+      Position		      [395, 392, 465, 408]
+      ShowName		      off
+      GotoTag		      "NA6_pt"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA4_out_1"
+      SID		      "93"
+      Position		      [640, 352, 725, 368]
+      ShowName		      off
+      GotoTag		      "PA4_out_1"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA4_out_2"
+      SID		      "94"
+      Position		      [640, 377, 725, 393]
+      ShowName		      off
+      GotoTag		      "PA4_out_2"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA5_1"
+      SID		      "39"
+      Position		      [790, 457, 890, 473]
+      ShowName		      off
+      GotoTag		      "PA5_out_1"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA5_2"
+      SID		      "49"
+      Position		      [790, 582, 890, 598]
+      ShowName		      off
+      GotoTag		      "PA5_out_2"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PA5_4to5"
+      SID		      "100"
+      Ports		      [5, 3]
+      Position		      [500, 450, 605, 520]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      min_path_par_m	      "50"
+      bck_param_m	      "20"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PA5_forw"
+      SID		      "107"
+      Position		      [395, 507, 465, 523]
+      ShowName		      off
+      Value		      "20"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA5_in_1"
+      SID		      "103"
+      Position		      [395, 447, 465, 463]
+      ShowName		      off
+      GotoTag		      "NA4_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA5_in_2"
+      SID		      "104"
+      Position		      [395, 462, 465, 478]
+      ShowName		      off
+      GotoTag		      "NA5_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA5_in_3"
+      SID		      "105"
+      Position		      [395, 477, 465, 493]
+      ShowName		      off
+      GotoTag		      "NA4_pt"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA5_in_4"
+      SID		      "106"
+      Position		      [395, 492, 465, 508]
+      ShowName		      off
+      GotoTag		      "NA5_pt"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA5_out_1"
+      SID		      "101"
+      Position		      [640, 452, 725, 468]
+      ShowName		      off
+      GotoTag		      "PA5_out_1"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA5_out_2"
+      SID		      "102"
+      Position		      [640, 477, 725, 493]
+      ShowName		      off
+      GotoTag		      "PA5_out_2"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA6_1"
+      SID		      "57"
+      Position		      [790, 657, 890, 673]
+      ShowName		      off
+      GotoTag		      "PA6_out_1"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA6_2"
+      SID		      "66"
+      Position		      [790, 757, 890, 773]
+      ShowName		      off
+      GotoTag		      "PA6_out_2"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PA6_6to7"
+      SID		      "108"
+      Ports		      [5, 3]
+      Position		      [500, 550, 605, 620]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      min_path_par_m	      "100"
+      bck_param_m	      "36"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PA6_forw"
+      SID		      "115"
+      Position		      [395, 607, 465, 623]
+      ShowName		      off
+      Value		      "36"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA6_in_1"
+      SID		      "111"
+      Position		      [395, 547, 465, 563]
+      ShowName		      off
+      GotoTag		      "NA6_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA6_in_2"
+      SID		      "112"
+      Position		      [395, 562, 465, 578]
+      ShowName		      off
+      GotoTag		      "NA7_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA6_in_3"
+      SID		      "113"
+      Position		      [395, 577, 465, 593]
+      ShowName		      off
+      GotoTag		      "NA6_pt"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA6_in_4"
+      SID		      "114"
+      Position		      [395, 592, 465, 608]
+      ShowName		      off
+      GotoTag		      "NA7_pt"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA6_out_1"
+      SID		      "109"
+      Position		      [640, 552, 725, 568]
+      ShowName		      off
+      GotoTag		      "PA6_out_1"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA6_out_2"
+      SID		      "110"
+      Position		      [640, 577, 725, 593]
+      ShowName		      off
+      GotoTag		      "PA6_out_2"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA7_1"
+      SID		      "48"
+      Position		      [790, 557, 890, 573]
+      ShowName		      off
+      GotoTag		      "PA7_out_1"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA7_2"
+      SID		      "67"
+      Position		      [790, 782, 890, 798]
+      ShowName		      off
+      GotoTag		      "PA7_out_2"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PA7_5to7"
+      SID		      "116"
+      Ports		      [5, 3]
+      Position		      [500, 650, 605, 720]
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PA_simple2"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      min_path_par_m	      "50"
+      bck_param_m	      "38"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PA7_forw"
+      SID		      "123"
+      Position		      [395, 707, 465, 723]
+      ShowName		      off
+      Value		      "38"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA7_in_1"
+      SID		      "119"
+      Position		      [395, 647, 465, 663]
+      ShowName		      off
+      GotoTag		      "NA5_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA7_in_2"
+      SID		      "120"
+      Position		      [395, 662, 465, 678]
+      ShowName		      off
+      GotoTag		      "NA7_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA7_in_3"
+      SID		      "121"
+      Position		      [395, 677, 465, 693]
+      ShowName		      off
+      GotoTag		      "NA5_pt"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PA7_in_4"
+      SID		      "122"
+      Position		      [395, 692, 465, 708]
+      ShowName		      off
+      GotoTag		      "NA7_pt"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA7_out_1"
+      SID		      "117"
+      Position		      [640, 652, 725, 668]
+      ShowName		      off
+      GotoTag		      "PA7_out_1"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PA7_out_2"
+      SID		      "118"
+      Position		      [640, 677, 725, 693]
+      ShowName		      off
+      GotoTag		      "PA7_out_2"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PAC"
+      SID		      "186"
+      Ports		      [3, 1]
+      Position		      [1420, 627, 1545, 703]
+      ForegroundColor	      "blue"
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PVC"
+      SourceType	      "Stateflow"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+    }
+    Block {
+      BlockType		      From
+      Name		      "PAC_actIn"
+      SID		      "187"
+      Position		      [1320, 681, 1390, 699]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+    }
+    Block {
+      BlockType		      Clock
+      Name		      "PAC_clk"
+      SID		      "188"
+      Position		      [1195, 630, 1215, 650]
+      Decimation	      "10"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PAC_count"
+      SID		      "189"
+      Position		      [1330, 657, 1390, 673]
+      ShowName		      off
+      Value		      "210"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PAC_outTag"
+      SID		      "190"
+      Position		      [1570, 657, 1655, 673]
+      ShowName		      off
+      GotoTag		      "PAC_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PAC_tagIn"
+      SID		      "12"
+      Position		      [790, 157, 890, 173]
+      ShowName		      off
+      GotoTag		      "PAC_out"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "PAC_time"
+      SID		      "191"
+      Ports		      [1, 1]
+      Position		      [1240, 616, 1310, 664]
+      ErrorFcn		      "Stateflow.Translate.translate"
+      PermitHierarchicalResolution "ExplicitOnly"
+      TreatAsAtomicUnit	      on
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      MaskType		      "Stateflow"
+      MaskDescription	      "Embedded MATLAB block"
+      MaskSelfModifiable      on
+      MaskDisplay	      "bgColor = Simulink.Root.ColorString2Rgb(get_param(gcbh, 'BackgroundColor')); image(imread('pr"
+      "ivate/eml_membrane_16.png','png','BackgroundColor',bgColor(1:3)),'center'); disp([10 10 'fcn']);"
+      MaskIconFrame	      on
+      MaskIconOpaque	      off
+      MaskIconRotate	      "none"
+      MaskPortRotate	      "default"
+      MaskIconUnits	      "normalized"
+      System {
+	Name			"PAC_time"
+	Location		[257, 457, 812, 717]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"26"
+	SIDPrevWatermark	"21"
+	Block {
+	  BlockType		  Inport
+	  Name			  "t"
+	  SID			  "191::1"
+	  Position		  [20, 101, 40, 119]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Demux
+	  Name			  " Demux "
+	  SID			  "191::23"
+	  Ports			  [1, 1]
+	  Position		  [270, 180, 320, 220]
+	  Outputs		  "1"
+	}
+	Block {
+	  BlockType		  S-Function
+	  Name			  " SFunction "
+	  SID			  "191::22"
+	  Tag			  "Stateflow S-Function case2mod_new_scope 7"
+	  Ports			  [1, 2]
+	  Position		  [180, 100, 230, 180]
+	  FunctionName		  "sf_sfun"
+	  PortCounts		  "[1 2]"
+	  EnableBusSupport	  on
+	  Port {
+	    PortNumber		    2
+	    Name		    "y"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  " Terminator "
+	  SID			  "191::25"
+	  Position		  [460, 191, 480, 209]
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "y"
+	  SID			  "191::5"
+	  Position		  [460, 101, 480, 119]
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "t"
+	  SrcPort		  1
+	  DstBlock		  " SFunction "
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "y"
+	  Labels		  [0, 0; 0, 0]
+	  SrcBlock		  " SFunction "
+	  SrcPort		  2
+	  DstBlock		  "y"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  " Demux "
+	  SrcPort		  1
+	  DstBlock		  " Terminator "
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  " SFunction "
+	  SrcPort		  1
+	  DstBlock		  " Demux "
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PVC"
+      SID		      "192"
+      Ports		      [3, 1]
+      Position		      [1420, 752, 1545, 828]
+      ForegroundColor	      "blue"
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/PVC"
+      SourceType	      "Stateflow"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+    }
+    Block {
+      BlockType		      From
+      Name		      "PVC_actIn"
+      SID		      "193"
+      Position		      [1320, 806, 1390, 824]
+      ShowName		      off
+      GotoTag		      "NA3_out"
+    }
+    Block {
+      BlockType		      Clock
+      Name		      "PVC_clk"
+      SID		      "194"
+      Position		      [1185, 755, 1205, 775]
+      Decimation	      "10"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "PVC_count"
+      SID		      "195"
+      Position		      [1330, 782, 1390, 798]
+      ShowName		      off
+      Value		      "400"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "PVC_outTag"
+      SID		      "196"
+      Position		      [1570, 779, 1655, 801]
+      ShowName		      off
+      GotoTag		      "PVC_out"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "PVC_tagIn"
+      SID		      "31"
+      Position		      [790, 382, 890, 398]
+      ShowName		      off
+      GotoTag		      "PVC_out"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "PVC_time"
+      SID		      "197"
+      Ports		      [1, 1]
+      Position		      [1240, 742, 1310, 788]
+      ErrorFcn		      "Stateflow.Translate.translate"
+      PermitHierarchicalResolution "ExplicitOnly"
+      TreatAsAtomicUnit	      on
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      MaskType		      "Stateflow"
+      MaskDescription	      "Embedded MATLAB block"
+      MaskSelfModifiable      on
+      MaskDisplay	      "bgColor = Simulink.Root.ColorString2Rgb(get_param(gcbh, 'BackgroundColor')); image(imread('pr"
+      "ivate/eml_membrane_16.png','png','BackgroundColor',bgColor(1:3)),'center'); disp([10 10 'fcn']);"
+      MaskIconFrame	      on
+      MaskIconOpaque	      off
+      MaskIconRotate	      "none"
+      MaskPortRotate	      "default"
+      MaskIconUnits	      "normalized"
+      System {
+	Name			"PVC_time"
+	Location		[257, 457, 812, 717]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"25"
+	SIDPrevWatermark	"21"
+	Block {
+	  BlockType		  Inport
+	  Name			  "t"
+	  SID			  "197::1"
+	  Position		  [20, 101, 40, 119]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Demux
+	  Name			  " Demux "
+	  SID			  "197::23"
+	  Ports			  [1, 1]
+	  Position		  [270, 160, 320, 200]
+	  Outputs		  "1"
+	}
+	Block {
+	  BlockType		  S-Function
+	  Name			  " SFunction "
+	  SID			  "197::22"
+	  Tag			  "Stateflow S-Function case2mod_new_scope 1"
+	  Ports			  [1, 2]
+	  Position		  [180, 100, 230, 160]
+	  FunctionName		  "sf_sfun"
+	  PortCounts		  "[1 2]"
+	  EnableBusSupport	  on
+	  Port {
+	    PortNumber		    2
+	    Name		    "y"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  " Terminator "
+	  SID			  "197::25"
+	  Position		  [460, 171, 480, 189]
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "y"
+	  SID			  "197::5"
+	  Position		  [460, 101, 480, 119]
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  " SFunction "
+	  SrcPort		  1
+	  DstBlock		  " Demux "
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  " Demux "
+	  SrcPort		  1
+	  DstBlock		  " Terminator "
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "y"
+	  Labels		  [0, 0]
+	  SrcBlock		  " SFunction "
+	  SrcPort		  2
+	  DstBlock		  "y"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "t"
+	  SrcPort		  1
+	  DstBlock		  " SFunction "
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "SA_rest_inTag"
+      SID		      "165"
+      Position		      [1260, 412, 1340, 428]
+      ShowName		      off
+      GotoTag		      "SA_rest"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      From
+      Name		      "ScopeOutput1"
+      SID		      "176"
+      Position		      [1385, 32, 1465, 48]
+      ShowName		      off
+      GotoTag		      "NA1_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "ScopeOutput2"
+      SID		      "177"
+      Position		      [1385, 52, 1465, 68]
+      ShowName		      off
+      GotoTag		      "NA2_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "ScopeOutput3"
+      SID		      "178"
+      Position		      [1385, 72, 1465, 88]
+      ShowName		      off
+      GotoTag		      "NA3_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "ScopeOutput4"
+      SID		      "179"
+      Position		      [1385, 92, 1465, 108]
+      ShowName		      off
+      GotoTag		      "NA4_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "ScopeOutput5"
+      SID		      "180"
+      Position		      [1385, 112, 1465, 128]
+      ShowName		      off
+      GotoTag		      "NA5_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "ScopeOutput6"
+      SID		      "181"
+      Position		      [1385, 132, 1465, 148]
+      ShowName		      off
+      GotoTag		      "NA6_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "ScopeOutput7"
+      SID		      "182"
+      Position		      [1385, 147, 1465, 163]
+      ShowName		      off
+      GotoTag		      "NA7_out"
+    }
+    Block {
+      BlockType		      From
+      Name		      "a_pace_f"
+      SID		      "11"
+      Position		      [790, 132, 890, 148]
+      ShowName		      off
+      GotoTag		      "a_pace"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "a_pace_inTag"
+      SID		      "183"
+      Position		      [1575, 532, 1655, 548]
+      ShowName		      off
+      GotoTag		      "a_pace"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "av_forw_in"
+      SID		      "166"
+      Position		      [1175, 455, 1205, 485]
+      Value		      "200"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "pacemaker_DDD"
+      SID		      "184"
+      Ports		      [2, 4]
+      Position		      [1260, 529, 1375, 596]
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.105"
+      SourceBlock	      "SimpleModeling/pacemaker_DDD"
+      SourceType	      ""
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      LRI_def		      "10"
+      AVI_def		      "150"
+      ARP_def		      "10"
+      VRP_def		      "80"
+      URI_def		      "50"
+      Port {
+	PortNumber		1
+	Name			"a_pace"
+	PropagatedSignals	"LRIout"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
+      Port {
+	PortNumber		2
+	Name			"v_pace"
+	PropagatedSignals	"AVIout"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "sa_rest_in"
+      SID		      "167"
+      Position		      [1175, 405, 1205, 435]
+      Value		      "700"
+      OutDataTypeStr	      "uint16"
+    }
+    Block {
+      BlockType		      From
+      Name		      "v_pace_f"
+      SID		      "30"
+      Position		      [790, 357, 890, 373]
+      ShowName		      off
+      GotoTag		      "v_pace"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "v_pace_inTag"
+      SID		      "185"
+      Position		      [1575, 547, 1655, 563]
+      ShowName		      off
+      GotoTag		      "v_pace"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "NA1Out"
+      SID		      "125"
+      Position		      [1280, 52, 1310, 68]
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "NA2Out"
+      SID		      "127"
+      Position		      [1280, 102, 1310, 118]
+      Port		      "2"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "NA3Out"
+      SID		      "129"
+      Position		      [1280, 152, 1310, 168]
+      Port		      "3"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "NA4Out"
+      SID		      "131"
+      Position		      [1280, 202, 1310, 218]
+      Port		      "4"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "NA5Out"
+      SID		      "133"
+      Position		      [1280, 252, 1310, 268]
+      Port		      "5"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "NA6Out"
+      SID		      "135"
+      Position		      [1280, 302, 1310, 318]
+      Port		      "6"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "NA7Out"
+      SID		      "137"
+      Position		      [1280, 352, 1310, 368]
+      Port		      "7"
+      IconDisplay	      "Port number"
+    }
+    Line {
+      SrcBlock		      "NA1_SA"
+      SrcPort		      1
+      DstBlock		      "NA1_out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA1_SA"
+      SrcPort		      3
+      DstBlock		      "NA1_pt"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA1_in"
+      SrcPort		      1
+      DstBlock		      "NA1_SA"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA1_tRest"
+      SrcPort		      1
+      DstBlock		      "NA1_SA"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA1_OR"
+      SrcPort		      1
+      DstBlock		      "NA1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA1_1"
+      SrcPort		      1
+      DstBlock		      "NA1_OR"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA3_1"
+      SrcPort		      1
+      DstBlock		      "NA1_OR"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA4_1"
+      SrcPort		      1
+      DstBlock		      "NA1_OR"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "a_pace_f"
+      SrcPort		      1
+      DstBlock		      "NA1_OR"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PAC_tagIn"
+      SrcPort		      1
+      DstBlock		      "NA1_OR"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "NA2_AV"
+      SrcPort		      1
+      DstBlock		      "NA2_out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA2_AV"
+      SrcPort		      3
+      DstBlock		      "NA2_pt"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA2_in"
+      SrcPort		      1
+      DstBlock		      "NA2_AV"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA2_tRest"
+      SrcPort		      1
+      DstBlock		      "NA2_AV"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA2_OR"
+      SrcPort		      1
+      DstBlock		      "NA2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA2_1"
+      SrcPort		      1
+      DstBlock		      "NA2_OR"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA1_2"
+      SrcPort		      1
+      DstBlock		      "NA2_OR"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA3_RV"
+      SrcPort		      1
+      DstBlock		      "NA3_out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA3_RV"
+      SrcPort		      3
+      DstBlock		      "NA3_pt"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA3_in"
+      SrcPort		      1
+      DstBlock		      "NA3_RV"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA3_tRest"
+      SrcPort		      1
+      DstBlock		      "NA3_RV"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA3_OR"
+      SrcPort		      1
+      DstBlock		      "NA3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA2_2"
+      SrcPort		      1
+      DstBlock		      "NA3_OR"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "v_pace_f"
+      SrcPort		      1
+      DstBlock		      "NA3_OR"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PVC_tagIn"
+      SrcPort		      1
+      DstBlock		      "NA3_OR"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "NA4_F1"
+      SrcPort		      1
+      DstBlock		      "NA4_out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA4_F1"
+      SrcPort		      3
+      DstBlock		      "NA4_pt"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA4_in"
+      SrcPort		      1
+      DstBlock		      "NA4_F1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA4_tRest"
+      SrcPort		      1
+      DstBlock		      "NA4_F1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA4_OR"
+      SrcPort		      1
+      DstBlock		      "NA4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA5_1"
+      SrcPort		      1
+      DstBlock		      "NA4_OR"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA3_2"
+      SrcPort		      1
+      DstBlock		      "NA4_OR"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA5_F2"
+      SrcPort		      1
+      DstBlock		      "NA5_out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA5_F2"
+      SrcPort		      3
+      DstBlock		      "NA5_pt"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA5_in"
+      SrcPort		      1
+      DstBlock		      "NA5_F2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA5_tRest"
+      SrcPort		      1
+      DstBlock		      "NA5_F2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA5_OR"
+      SrcPort		      1
+      DstBlock		      "NA5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA7_1"
+      SrcPort		      1
+      DstBlock		      "NA5_OR"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA5_2"
+      SrcPort		      1
+      DstBlock		      "NA5_OR"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA6_S1"
+      SrcPort		      1
+      DstBlock		      "NA6_out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA6_S1"
+      SrcPort		      3
+      DstBlock		      "NA6_pt"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA6_in"
+      SrcPort		      1
+      DstBlock		      "NA6_S1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA6_tRest"
+      SrcPort		      1
+      DstBlock		      "NA6_S1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA6_OR"
+      SrcPort		      1
+      DstBlock		      "NA6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA6_1"
+      SrcPort		      1
+      DstBlock		      "NA6_OR"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA4_2"
+      SrcPort		      1
+      DstBlock		      "NA6_OR"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA7_S2"
+      SrcPort		      1
+      DstBlock		      "NA7_out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA7_S2"
+      SrcPort		      3
+      DstBlock		      "NA7_pt"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA7_in"
+      SrcPort		      1
+      DstBlock		      "NA7_S2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "NA7_tRest"
+      SrcPort		      1
+      DstBlock		      "NA7_S2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "NA7_OR"
+      SrcPort		      1
+      DstBlock		      "NA7"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA6_2"
+      SrcPort		      1
+      DstBlock		      "NA7_OR"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA7_2"
+      SrcPort		      1
+      DstBlock		      "NA7_OR"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA1_1to2"
+      SrcPort		      1
+      DstBlock		      "PA1_out_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA1_1to2"
+      SrcPort		      2
+      DstBlock		      "PA1_out_2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA1_in_1"
+      SrcPort		      1
+      DstBlock		      "PA1_1to2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA1_in_2"
+      SrcPort		      1
+      DstBlock		      "PA1_1to2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA1_in_3"
+      SrcPort		      1
+      DstBlock		      "PA1_1to2"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PA1_in_4"
+      SrcPort		      1
+      DstBlock		      "PA1_1to2"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PA1_forw"
+      SrcPort		      1
+      DstBlock		      "PA1_1to2"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "PA2_2to3"
+      SrcPort		      1
+      DstBlock		      "PA2_out_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA2_2to3"
+      SrcPort		      2
+      DstBlock		      "PA2_out_2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA2_in_1"
+      SrcPort		      1
+      DstBlock		      "PA2_2to3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA2_in_2"
+      SrcPort		      1
+      DstBlock		      "PA2_2to3"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA2_in_3"
+      SrcPort		      1
+      DstBlock		      "PA2_2to3"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PA2_in_4"
+      SrcPort		      1
+      DstBlock		      "PA2_2to3"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PA2_forw"
+      SrcPort		      1
+      DstBlock		      "PA2_2to3"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "PA3_1to4"
+      SrcPort		      1
+      DstBlock		      "PA3_out_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA3_1to4"
+      SrcPort		      2
+      DstBlock		      "PA3_out_2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA3_in_1"
+      SrcPort		      1
+      DstBlock		      "PA3_1to4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA3_in_2"
+      SrcPort		      1
+      DstBlock		      "PA3_1to4"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA3_in_3"
+      SrcPort		      1
+      DstBlock		      "PA3_1to4"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PA3_in_4"
+      SrcPort		      1
+      DstBlock		      "PA3_1to4"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PA3_forw"
+      SrcPort		      1
+      DstBlock		      "PA3_1to4"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "PA4_1to6"
+      SrcPort		      1
+      DstBlock		      "PA4_out_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA4_1to6"
+      SrcPort		      2
+      DstBlock		      "PA4_out_2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA4_in_1"
+      SrcPort		      1
+      DstBlock		      "PA4_1to6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA4_in_2"
+      SrcPort		      1
+      DstBlock		      "PA4_1to6"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA4_in_3"
+      SrcPort		      1
+      DstBlock		      "PA4_1to6"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PA4_in_4"
+      SrcPort		      1
+      DstBlock		      "PA4_1to6"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PA4_forw"
+      SrcPort		      1
+      DstBlock		      "PA4_1to6"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "PA5_4to5"
+      SrcPort		      1
+      DstBlock		      "PA5_out_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA5_4to5"
+      SrcPort		      2
+      DstBlock		      "PA5_out_2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA5_in_1"
+      SrcPort		      1
+      DstBlock		      "PA5_4to5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA5_in_2"
+      SrcPort		      1
+      DstBlock		      "PA5_4to5"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA5_in_3"
+      SrcPort		      1
+      DstBlock		      "PA5_4to5"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PA5_in_4"
+      SrcPort		      1
+      DstBlock		      "PA5_4to5"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PA5_forw"
+      SrcPort		      1
+      DstBlock		      "PA5_4to5"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "PA6_6to7"
+      SrcPort		      1
+      DstBlock		      "PA6_out_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA6_6to7"
+      SrcPort		      2
+      DstBlock		      "PA6_out_2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA6_in_1"
+      SrcPort		      1
+      DstBlock		      "PA6_6to7"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA6_in_2"
+      SrcPort		      1
+      DstBlock		      "PA6_6to7"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA6_in_3"
+      SrcPort		      1
+      DstBlock		      "PA6_6to7"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PA6_in_4"
+      SrcPort		      1
+      DstBlock		      "PA6_6to7"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PA6_forw"
+      SrcPort		      1
+      DstBlock		      "PA6_6to7"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "PA7_5to7"
+      SrcPort		      1
+      DstBlock		      "PA7_out_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA7_5to7"
+      SrcPort		      2
+      DstBlock		      "PA7_out_2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA7_in_1"
+      SrcPort		      1
+      DstBlock		      "PA7_5to7"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PA7_in_2"
+      SrcPort		      1
+      DstBlock		      "PA7_5to7"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PA7_in_3"
+      SrcPort		      1
+      DstBlock		      "PA7_5to7"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PA7_in_4"
+      SrcPort		      1
+      DstBlock		      "PA7_5to7"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "PA7_forw"
+      SrcPort		      1
+      DstBlock		      "PA7_5to7"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "Output1"
+      SrcPort		      1
+      DstBlock		      "NA1Out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Output2"
+      SrcPort		      1
+      DstBlock		      "NA2Out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Output3"
+      SrcPort		      1
+      DstBlock		      "NA3Out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Output4"
+      SrcPort		      1
+      DstBlock		      "NA4Out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Output5"
+      SrcPort		      1
+      DstBlock		      "NA5Out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Output6"
+      SrcPort		      1
+      DstBlock		      "NA6Out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Output7"
+      SrcPort		      1
+      DstBlock		      "NA7Out"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "sa_rest_in"
+      SrcPort		      1
+      DstBlock		      "SA_rest_inTag"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "av_forw_in"
+      SrcPort		      1
+      DstBlock		      "AV_forw_inTag"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "ScopeOutput1"
+      SrcPort		      1
+      Points		      [0, 10]
+      DstBlock		      "HeartScope"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "ScopeOutput2"
+      SrcPort		      1
+      Points		      [0, 5]
+      DstBlock		      "HeartScope"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "ScopeOutput3"
+      SrcPort		      1
+      DstBlock		      "HeartScope"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "ScopeOutput4"
+      SrcPort		      1
+      Points		      [0, -5]
+      DstBlock		      "HeartScope"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "ScopeOutput5"
+      SrcPort		      1
+      Points		      [0, -10]
+      DstBlock		      "HeartScope"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "ScopeOutput6"
+      SrcPort		      1
+      DstBlock		      "HeartScope"
+      DstPort		      6
+    }
+    Line {
+      Labels		      [0, 0]
+      SrcBlock		      "ScopeOutput7"
+      SrcPort		      1
+      DstBlock		      "HeartScope"
+      DstPort		      7
+    }
+    Line {
+      SrcBlock		      "Output8"
+      SrcPort		      1
+      DstBlock		      "pacemaker_DDD"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Output9"
+      SrcPort		      1
+      DstBlock		      "pacemaker_DDD"
+      DstPort		      2
+    }
+    Line {
+      Name		      "a_pace"
+      Labels		      [0, 0]
+      SrcBlock		      "pacemaker_DDD"
+      SrcPort		      1
+      Points		      [135, 0]
+      Branch {
+	DstBlock		"a_pace_inTag"
+	DstPort			1
+      }
+      Branch {
+	Labels			[1, 0]
+	Points			[0, -385]
+	DstBlock		"HeartScope"
+	DstPort			8
+      }
+    }
+    Line {
+      Name		      "v_pace"
+      Labels		      [0, 0]
+      SrcBlock		      "pacemaker_DDD"
+      SrcPort		      2
+      Points		      [155, 0]
+      Branch {
+	DstBlock		"v_pace_inTag"
+	DstPort			1
+      }
+      Branch {
+	Labels			[1, 1]
+	DstBlock		"HeartScope"
+	DstPort			9
+      }
+    }
+    Line {
+      SrcBlock		      "PAC"
+      SrcPort		      1
+      DstBlock		      "PAC_outTag"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PAC_count"
+      SrcPort		      1
+      DstBlock		      "PAC"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PAC_actIn"
+      SrcPort		      1
+      DstBlock		      "PAC"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PVC"
+      SrcPort		      1
+      DstBlock		      "PVC_outTag"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PVC_count"
+      SrcPort		      1
+      DstBlock		      "PVC"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "PVC_actIn"
+      SrcPort		      1
+      DstBlock		      "PVC"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "PVC_time"
+      SrcPort		      1
+      DstBlock		      "PVC"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PAC_clk"
+      SrcPort		      1
+      DstBlock		      "PAC_time"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PAC_time"
+      SrcPort		      1
+      DstBlock		      "PAC"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PVC_clk"
+      SrcPort		      1
+      DstBlock		      "PVC_time"
+      DstPort		      1
+    }
+  }
+}
+# Finite State Machines
+#
+#    Stateflow Version 7.5 (R2010a) dated Mar  5 2011, 00:01:50
+#
+#
+
+
+Stateflow {
+  machine {
+    id			    1
+    name		    "case2mod_new_scope"
+    created		    "15-Apr-2012 14:27:06"
+    isLibrary		    0
+    firstTarget		    16
+    debug {
+      runTimeCheck	      [0 0 0 0]
+    }
+    sfVersion		    75014001
+  }
+  chart {
+    id			    2
+    name		    "PVC_time"
+    windowPosition	    [356.813 279 200.25 189.75]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1680 1050 1.333333333333333]
+    treeNode		    [0 3 0 0]
+    firstTransition	    5
+    firstJunction	    4
+    viewObj		    2
+    machine		    1
+    subviewS {
+    }
+    ssIdHighWaterMark	    5
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    6
+    chartFileNumber	    1
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    3
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    2
+    treeNode		    [2 0 0 0]
+    superState		    SUBCHART
+    subviewer		    2
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function y = fcn(t)\n%#eml\ny=logical(0);\n   if t==300 || t==800\n       y=logical(1);\n   end\n"
+      "   \n  \n"
+      editorLayout	      "100 M4x1[16 125 720 475]"
+    }
+  }
+  junction {
+    id			    4
+    position		    [23.5747 49.5747 7]
+    chart		    2
+    linkNode		    [2 0 0]
+    subviewer		    2
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    5
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [32.125 19.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      4
+      intersection	      [7 0 -1 -1 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    2
+    linkNode		    [2 0 0]
+    dataLimits		    [23.575 23.575 14.625 34.575]
+    subviewer		    2
+    drawStyle		    SMART
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  data {
+    id			    6
+    ssIdNumber		    4
+    name		    "t"
+    linkNode		    [2 0 7]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    7
+    ssIdNumber		    5
+    name		    "y"
+    linkNode		    [2 6 0]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  instance {
+    id			    8
+    name		    "PVC_time"
+    machine		    1
+    chart		    2
+  }
+  chart {
+    id			    9
+    name		    "PAC_time"
+    windowPosition	    [341.813 294 200.25 189.75]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1680 1050 1.333333333333333]
+    treeNode		    [0 10 0 0]
+    firstTransition	    12
+    firstJunction	    11
+    viewObj		    9
+    machine		    1
+    subviewS {
+    }
+    ssIdHighWaterMark	    6
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    13
+    chartFileNumber	    7
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    10
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    9
+    treeNode		    [9 0 0 0]
+    superState		    SUBCHART
+    subviewer		    9
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function y = fcn(t)\n%#eml\ny=logical(0);\n   if t==300 || t==800\n       y=logical(1);\n   end\n"
+      "   \n  \n"
+      editorLayout	      "100 M4x1[16 125 720 475]"
+    }
+  }
+  junction {
+    id			    11
+    position		    [23.5747 49.5747 7]
+    chart		    9
+    linkNode		    [9 0 0]
+    subviewer		    9
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    12
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [32.125 19.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      11
+      intersection	      [7 0 -1 -1 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    9
+    linkNode		    [9 0 0]
+    dataLimits		    [23.575 23.575 14.625 34.575]
+    subviewer		    9
+    drawStyle		    SMART
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  data {
+    id			    13
+    ssIdNumber		    4
+    name		    "t"
+    linkNode		    [9 0 14]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    14
+    ssIdNumber		    5
+    name		    "y"
+    linkNode		    [9 13 0]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  instance {
+    id			    15
+    name		    "PAC_time"
+    machine		    1
+    chart		    9
+  }
+  target {
+    id			    16
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    machine		    1
+    linkNode		    [1 0 0]
+  }
+}
