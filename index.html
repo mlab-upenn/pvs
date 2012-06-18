@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PVS: Pacemaker Verification System</title>
+    <meta name="description" content="Description and design of the Pacemaker	Verification System project">
+    <meta name="author" content="Varun Sampath">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/tweaks.css" rel="stylesheet">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+		
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-27785677-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+
+  </head>
+
+  <body>
+
+    <div class="container">
+		<div class="content" style="height: 650px">
+			<div class="page-header">
+				<h1>PVS: Pacemaker Verification System</h1>
+			</div>
+			<div id="slide_container">
+			<div id="panel">
+			<div id="pvs_start">
+				<div class="row">
+					<div class="span14">
+						<a href="http://www.flickr.com/photos/76626058@N06/7216263142/"
+						title="PVS Version 1.0 by MedCPS, on Flickr"><img
+						src="http://farm6.staticflickr.com/5452/7216263142_58c9dd72cd_c.jpg"
+						width="800" height="529" alt="PVS Version 1.0"></a>
+					</div>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="span14" style="text-align:center">
+					<button class="btn danger medium" id="continue">Continue</button>
+					</div>
+				</div>
+			</div>
+
+			<div id="pvs_content">
+				<div class="row">
+					<span class="span14">
+						<a href="http://www.flickr.com/photos/76626058@N06/6877902282/"
+						title="Ring of Pacemakers by MedCPS, on Flickr"><img
+						src="http://farm7.staticflickr.com/6097/6877902282_458fc62140.jpg"
+						width="240" height="320" alt="Ring of Pacemakers" style="float: right; padding: 5px 5px 10px 5px"></a>
+						<h2>Motivation</h2>
+						<p>
+						About <strong>3 million</strong> individuals in the world depend on
+						surgically implanted pacemakers to maintain proper heart rhythm.
+						Pacemakers are inherently complex. They are programmed with tens of
+						thousands of lines of code, and are inevitably prone to bugs.
+						Between 1990 and 2000, over <strong>200,000</strong> pacemakers
+						were recalled due to software issues.
+						</p>
+
+						<p>
+						The <strong>purpose</strong> of the Pacemaker Verification System
+						is to test pacemakers with the realism of clinical trials but
+						without the inherent risks, with the goal of finding and removing
+						software errors before patient implantation.
+						</p>
+
+						<h2>Design</h2>
+							<p>
+						 Our system allows testing of pacemakers using a <strong>virtual
+						 heart</strong>. The heart is programmed to exhibit a variety of
+						 irregular rhythms, or <a
+						 href="http://www.nhlbi.nih.gov/health/health-topics/topics/arr/">arrhythmias</a>,
+						 and we can see how the pacemaker reacts. This is not enough though.
+						 The heart and the pacemaker form a closed-loop, dynamic system; we
+						 need to see both how the heart affects the pacemaker, and how the
+						 pacemaker affects the heart. By designing our virtual heart to
+						 react to pacing signals, we can capture these interactions.
+						 </p>
+						</span>
+					</div>
+
+					<div class="row">
+						<span class="span14" style="text-align: center">
+						 <q>Existing methods test how the heart affects the pacemaker, but
+						 NOT how the pacemaker affects the heart</q>
+					 </span>
+					</div>
+
+					<div class="row">
+						<span class="span14">
+						 <h3>The Virtual Heart</h3>
+						 <p>
+							The virtual heart was built using finite state machines to model
+							the heart's signal propagation properties for different types of
+							arrhythmias. Using code generation tools, these models were
+							directly translated to an FPGA hardware implementation, ensuring
+							proper and desirable behavior of the models. See <a
+							href="http://www.seas.upenn.edu/~zhihaoj/VHM.html">Penn mLAB's
+							page</a> for research and publications on the underlying virtual
+							heart model.
+							</p>
+					</span>
+				</div> <!-- row -->
+
+				<div class="row">
+					<span class="span14">
+
+					<h2>Results</h2>
+					<a href="http://www.flickr.com/photos/76626058@N06/7229070120/" title="Users by	MedCPS, on Flickr"><img
+					src="http://farm8.staticflickr.com/7242/7229070120_d50c39f75c_n.jpg"
+					width="320" height="185" alt="Users" style="float: left; padding: 5px 15px 15px 0"></a>
+					<p>
+						The Pacemaker Verification System allows testing with a realism
+						prior systems do not match. By capturing the closed-loop
+						interactions between the pacemaker and the heart, we can detect
+						errors that won't crop up in static input testing. One such scenario
+						that we can demo with a real pacemaker is <a
+						href="http://emedicine.medscape.com/article/159645-overview">endless-loop
+						tachycardia</a>. In this case, the feedback loop forced by the
+						pacemaker can only be detected with a closed-loop testing system
+						like this.
+					</p>
+					<p>
+						This new system saves lives (and insurance costs). Imagine the FDA
+						using this device to pre-certify that all pacemakers meet one or
+						more new testing standards. Or what if medical device manufacturers
+						could load their own custom models as baseline testing for new
+						pacing algorithms they're developing to overcome specific
+						arrhythmias. Lastly, consider your cardiologist, who can configure a
+						model for your heart and verify that the pacemaker he bought for you
+						will perform as intended. These are but a few of the possibilities
+						this new testing platform affords.
+					</p>
+					</span>
+				</div>
+
+				<div class="row">
+					<span class="span14" style="text-align: center">
+					 <q>Let our heart catch bugs before your heart does</q>
+				 </span>
+				</div>
+
+				<div class="row">
+					<span class="span14">
+					<h2>Recognition</h2>
+					<ul>
+						<li>Winner of the Penn Engineering school-wide Senior Design Competition</li>
+						<li>Winner of the Berger Award, <a href="http://www.ese.upenn.edu/seniordesign">Penn ESE Senior Design</a></li>
+						<li>Finalist in the <a
+						href="http://www.ieee.org/membership_services/membership/students/competitions/change_the_world/index.html">2012
+						IEEE Presidents' Change the World Competition</a></li>
+						<li>Demonstrated at IEEE Real-Time and Embedded Technology and
+						Applications Symposium (<a href="http://www.rtas.org/">RTAS 2012</a>), Beijing, China</li>
+					</ul>
+				 </span>
+				</div>
+
+				<div class="row">
+					<span class="span14">
+					<h2>A Presentation in Pictures</h2>
+					See more information on how the Pacemaker Verification System works and some presentation shots in the slideshow below. Click "Show info" to see captions.
+					</span>
+				</div>
+				<div class="row">
+					<span class="span14" style="text-align: center; padding: 10px">
+					<object width="700" height="525"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F76626058%40N06%2Fsets%2F72157629801403532%2Fshow%2Fwith%2F7216228890%2F&page_show_back_url=%2Fphotos%2F76626058%40N06%2Fsets%2F72157629801403532%2Fwith%2F7216228890%2F&set_id=72157629801403532&jump_to=7216228890"></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=109615"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=109615" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F76626058%40N06%2Fsets%2F72157629801403532%2Fshow%2Fwith%2F7216228890%2F&page_show_back_url=%2Fphotos%2F76626058%40N06%2Fsets%2F72157629801403532%2Fwith%2F7216228890%2F&set_id=72157629801403532&jump_to=7216228890" width="700" height="525"></embed></object>
+					</span>
+				</div>
+
+			<div class="row">
+				<span class="span14">
+				<h2>Links</h2>
+					<ul>
+						<li>Senior design poster [<a
+						href="http://static.vsampath.com/pvs/poster.pdf">PDF</a>]</li>
+						<li>Senior design paper (warning: terribly long) [<a
+						href="http://static.vsampath.com/pvs/paper.pdf">PDF</a>]</li>
+						<li>Presentation Video (coming soon)</li>
+						<li>Code[<a
+						href="https://github.com/mlab/pvs">Github</a>]</li>
+						<li>Contact: <a href="mailto:pvs@medcps.org">pvs@medcps.org</a></li>
+					</ul>
+			  </span>
+			</div>
+		</div> <!-- pvs_content -->
+	</div>
+</div>
+</div>
+
+		<footer>
+        <p>CSS by <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>. Content by me. Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><br /><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png" /></a>
+		</p>
+		</footer>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+				var isPic = true;
+				if (window.location.hash == "#info" && isPic) {
+					$("#panel").css("margin-left","-=820px");
+					$(".content").css("height","auto");
+					isPic = false;
+				}
+
+				$(window).bind('hashchange', function() {
+					if (window.location.hash == "#info" && isPic) {
+						$("#panel").css("margin-left","-=820px");
+						$(".content").css("height","auto");
+						isPic = false;
+					}
+					else if (window.location.hash == "" && !isPic) {
+						$("#panel").css("margin-left","+=820px");
+						$(".content").css("height","650px");
+						isPic = true;
+					}
+				});
+
+				//move from pic div to content div
+				$("#continue").click(function() {
+					$("#panel").animate({ marginLeft: '-=820px'}, 500);
+					window.location.hash = "#info";
+					$(".content").css("height","auto");
+					isPic = false;
+				});
+			});
+	</script>
+	</body>
+</html>
+

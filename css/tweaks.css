@@ -1,0 +1,85 @@
+     /* Override some defaults */
+      html, body {
+        background-color: #bbb;
+
+      }
+      body {
+        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+      }
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+      .container {
+        width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+      }
+
+      /* The white background content wrapper */
+      .container > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #f5f5f5;
+        padding: 20px 20px 10px;
+        margin: -20px -20px 20px;
+      }
+
+      .topbar .btn {
+        border: 0;
+      }
+	  
+	  .favicon {
+		height: 1em;
+	  }
+	  
+	/* New additions */
+	span.email { 
+		color: #333333;
+		font-size: 1.5em;
+		font-family: "Courier New", Courier, monospace;
+	}
+
+	li {
+		color: #404040;
+	}
+
+/* for sliding panel in PVS 
+ * from
+ * http://stackoverflow.com/questions/5888306/ajax-replace-and-scroll-sideways
+ */
+#slide_container {
+	width: 820px;
+	overflow: hidden;
+}
+
+#panel div {
+	width: 820px;
+	float: left;
+}
+
+#panel {
+	width: 5000px;
+}
+
+q {
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: -1px;
+	width: 820px;
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ee0000;
+	font-family: ff-din-web-condensed,helvetica,sans-serif;
+	font-style: italic;
+	display: block;
+}
