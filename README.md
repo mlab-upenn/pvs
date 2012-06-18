@@ -73,3 +73,11 @@ following is a breakdown of the source folders:
 	`case2mod_new.mat` as the topology and `SimpleModeling.mdl` as the library.
 	The build scripts have been tested in MATLAB 2011a and 2011b and should only
 	require the Simulink and Stateflow packages.
+
+Contact:
+-------
+* Zhihao Jiang: zhihaoj@seas.upenn.edu
+* Sriram Radhakrishnan: sriramr@seas.upenn.edu
+* Varun Sampath: vsampath@seas.upenn.edu
+* Shilpa Sarode: sarode@seas.upenn.edu
+* Prof. Rahul Mangharam: rahulm@seas.upenn.edu
